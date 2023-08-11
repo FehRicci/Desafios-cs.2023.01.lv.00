@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\SomaMedia\\SomaMedia\\SomaMedia.csproj": {}
+    "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\Dados\\Dados\\Dados.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\SomaMedia\\SomaMedia\\SomaMedia.csproj": {
+    "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\Dados\\Dados\\Dados.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\SomaMedia\\SomaMedia\\SomaMedia.csproj",
-        "projectName": "SomaMedia",
-        "projectPath": "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\SomaMedia\\SomaMedia\\SomaMedia.csproj",
+        "projectUniqueName": "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\Dados\\Dados\\Dados.csproj",
+        "projectName": "Dados",
+        "projectPath": "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\Dados\\Dados\\Dados.csproj",
         "packagesPath": "C:\\Users\\ferna\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\SomaMedia\\SomaMedia\\obj\\",
+        "outputPath": "C:\\Users\\ferna\\OneDrive\\Área de Trabalho\\Curso C#\\Dados\\Dados\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ferna\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -37,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",

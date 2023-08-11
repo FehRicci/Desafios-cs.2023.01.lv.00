@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Calculadora",
+    "\\Calculadora\\Calculadora",
+    "\\SomaMedia"
   ],
-  "SelectedNode": "\\Calculadora.sln",
+  "SelectedNode": "\\Calculadora\\Calculadora\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
