@@ -16,3 +16,6 @@ do
         Console.WriteLine("\nOs nomes não podem ser iguais!\n");
     }
 }while (nome1 == nome2);
+
+Dados.Dados.CondicaoDados(nome1, nome2);
+
