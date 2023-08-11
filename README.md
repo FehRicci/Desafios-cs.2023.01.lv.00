@@ -273,10 +273,10 @@ A tabuada solicitada foi: 2
 ESTOQUE MÉDIO = (QUANTIDADE_MÍNIMA + QUANTIDADE_MÁXIMA) / 2.
 
 ## 9.  Faça um programa que:
-- Leia a cotação do dólar
-- Leia um valor em dólares
-- Converta esse valor para Real
-- Mostre o resultado
+* Leia a cotação do dólar
+* Leia um valor em dólares
+* Converta esse valor para Real
+* Mostre o resultado
 
 ## 10. Faça um programa para pagamento de comissão de vendedores de peças, levando-se em consideração que sua
 comissão será de 5% do total da venda e que você tem os seguintes dados:
