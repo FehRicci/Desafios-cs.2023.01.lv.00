@@ -1,5 +1,5 @@
 # Desafios-cs.2023.01.lv.00
-Exercícios passados na mentoria cs.2023.01.lv.00.
+**Exercícios passados na mentoria cs.2023.01.lv.00.**
 
 Index
 
@@ -14,6 +14,7 @@ Index
 9. .
 10. Faça um programa para pagamento de comissão de vendedores de peças
 11. Caixa Eletronico
+12. Controle de Estoque. Faça uma aplicação que atenda os seguintes requisitos
 
 
 
@@ -302,3 +303,15 @@ comissão será de 5% do total da venda e que você tem os seguintes dados:
 - Será possivel tirar relatórios: Quantas operações foram efetuadas por tipo? Quanto de taxa o banco já tem em sua conta? Qual o valor de saldo em cada conta corrente dos clientes? Quanto tem dentro do caixa eletronico em Notas e Moedas por tipo de Moeda (BRL,USD, etc...)
 - O caixa eletronico tem uma opcão de carga de notas e moedas por tipo (BRL,USD, etc.....). Mas tudo tem limite, o caixa eletrônico só pode armazenar 20000 notas e 50000 moedas independente do tipo de moeda.Esse eh um limite de armazenagem físico mesmo.
 - As notas e moedas depositadas pelos clientes também podem ser utilizadas para saque, mas cuidado com o limite.
+
+## 12. Controle de Estoque. Faça uma aplicação que atenda os seguintes requisitos
+
+* É um sistema de vendas de caixa, que tem acesso direto ao estoque de itens da loja
+* todo item cadastrado deve ter pelo menos os seguintes atributos: numero do lote, data fabricaçao, quantidade em estoque e  data de vencimento
+* criar metodo de entrada de estoque para adicionar e remover itens do estoque
+* Processo de venda: os itens deve ser associados a um numero de pedido
+* O cliente deve conseguir obter o detalghes dos itens no carrinho de compra e o valor total da compra antes de finalizar no caixa
+* Quando a venda for concluida a quantidade do item deve ser removida do estoque e grada uma nota fiscal na tela do operador
+* o pagamento pode ser parcelado ou a vista no debito e cartao de credito
+* se o cartao de debito for utlizado para a compra ou ela ter sido feita no dinheiro, o cliente deverá receber de 10% 12% 14% 17% ou 20% de desconto
+* os valores de desconto só deverão ser aplicados em compras a cima de 300 reais, e também um dos descontos de 10% 12% 14% 17% ou 20% de desconto deve ser escohido via sorteio que acontece no momento da confirmação do pagamento
