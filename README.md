@@ -3,7 +3,7 @@
 
 Index
 
-1. Calculadora
+[1. Calculadora](#Calculadora)
 2. Soma e Média
 3. Jogar dados
 4. Datas
@@ -18,7 +18,7 @@ Index
 
 
 
-## 1. Calculadora
+## 1. Calculadora <a name="Calculadora"></a>
 Objetivo: usando uma aplicação do tipo console do dotnet, criar uma calculadora simples que terá as operações de soma, subtração, multiplicação e divisão. Faça o controle de versionamento da sua aplicação com git e suba a mesma para o github.
 
 Novos conceitos ou funcionalidades desse exercício
