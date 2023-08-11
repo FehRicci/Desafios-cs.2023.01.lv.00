@@ -3,7 +3,7 @@
 
 Index
 
-[1. Calculadora](#Calculadora)
+1. Calculadora
 2. Soma e Média
 3. Jogar dados
 4. Datas
@@ -201,7 +201,7 @@ Desafios
 Crie na sua aplicação a opção de converter as moedas dólar ( $ ), euro ( € ), iene ( ¥ ) e libra esterlina ( £ ) em real ( R$ ).
 Permita que o usuário informe qualquer uma das moedas (real , dólar, euro, iene ou libra esterlina) e depois converta pra qualquer uma das opções restantes.
 
-## 6. Jogo da Forca <a name="Calculadora"></a>
+## 6. Jogo da Forca 
 Objetivo: usando uma aplicação do tipo console do dotnet, criar um jogo da forca que irá ler uma lista de nomes de filmes, nomes de jogos (vídeo game) e países. Com essa aplicação você poderá evoluir seus conhecimentos sobre manipulação de strings e leitura e escrita de arquivos.
 
 Novos conceitos ou funcionalidades desse exercício
