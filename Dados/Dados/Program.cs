@@ -2,6 +2,7 @@
 Console.WriteLine("Bom vindo ao jogo de dados!\n");
 string nome1;
 string nome2;
+int rodadas;
 
 do
 {
@@ -17,5 +18,12 @@ do
     }
 }while (nome1 == nome2);
 
-Dados.Dados.CondicaoDados(nome1, nome2);
+
+do
+{
+    Console.WriteLine("Informe a quantidade de rodadas (entre 1 e 5): ");
+    rodadas = int.Parse(Console.ReadLine());
+}while (rodadas < 1 || rodadas > 5);
+
+Dados.Dados.CondicaoDados(nome1, nome2, rodadas);
 
