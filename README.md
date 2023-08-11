@@ -8,6 +8,12 @@ Index
 3. Jogar dados
 4. Datas
 5. Conversão de Moedas
+6. Jogo da Forca
+7. Tabuada
+8. Faça um programa para calcular o estoque médio de uma peça
+9. .
+10. Faça um programa para pagamento de comissão de vendedores de peças
+11. Caixa Eletronico
 
 
 
@@ -193,3 +199,106 @@ Estude o uso de Dictionary e utilize-o para armazenar o valor de cada moeda que 
 Desafios
 Crie na sua aplicação a opção de converter as moedas dólar ( $ ), euro ( € ), iene ( ¥ ) e libra esterlina ( £ ) em real ( R$ ).
 Permita que o usuário informe qualquer uma das moedas (real , dólar, euro, iene ou libra esterlina) e depois converta pra qualquer uma das opções restantes.
+
+## 6. Jogo da Forca
+Objetivo: usando uma aplicação do tipo console do dotnet, criar um jogo da forca que irá ler uma lista de nomes de filmes, nomes de jogos (vídeo game) e países. Com essa aplicação você poderá evoluir seus conhecimentos sobre manipulação de strings e leitura e escrita de arquivos.
+
+Novos conceitos ou funcionalidades desse exercício
+Gravação e leitura de arquivos para armazenar os nomes de filmes, carros e países.
+
+Estude:
+
+Gravação e leitura de arquivos.
+Orientação a objetos (encapsulamento, herança, abstração e polimorfismo).
+Caso não conheça os conceitos de orientação a objetos, pause um pouco a execução do exercício, estude esses conceitos e coloque-os em prática em alguns exemplos, pois no próximo exercício aprofundaremos em orientação a objetos.
+
+Requisitos da aplicação
+Ao abrir a aplicação o sistema deverá sortear aleatoriamente uma das 3 categorias: filmes, carros ou países e, após isso, sortear um dos nomes da categoria selecionada.
+
+Após a seleção feita pelo sistema, exiba um placar na tela com a quantidade de tentativas disponíveis e quantas tentativas já foram realizadas. Nesse mesmo placar crie uma lista com as letras e números já utilizados pelo jogador.
+
+Mostre na tela também, a categoria sorteada e a quantidade de letras da palavra. Além da quantidade de letras, inicialmente todas as letras da palavra devem ser substituídas por underline (_). Exemplo:
+
+Se a palavra for o filme Matrix, deverá ser exibido 6 underline no lugar da palavra.
+Ao acertar a letra A, deverá ser exibido apenas a letra a na posição correta.
+As palavras devem ficar armazenadas em um arquivo de texto do tipo CSV que terá a palavra seguido pela categoria, onde Filme = 0, Jogo = 1, e Pais = 2. Segue um exemplo de como cada tipo deve ficar no arquivo:
+
+Matrix;0;
+Batman;1;
+Brasil;2;
+Se alguma palavra possui letra com acentuação, ela deve ser reconhecida quando o usuário informar sem acentuação, além disso a aplicação não deve diferenciar maiúsculo de minúsculo. Estude como usar o System.Text.Encoding.CodePages para remoção de acentos usando o 'ISO-8859-8'.
+
+A cada tentativa atualize o placar com as pontuações.
+
+Caso o jogador a 0 no número de tentativas exiba a mensagem "Fim de jogo, você perdeu!".
+
+Caso o jogador acerte todas as letras, exiba a mensagem "Fim de jogo, você venceu!".
+
+Opcional
+
+Fazer o controle de versionamento da sua aplicação usando git;
+Subir a aplicação para um repositório do github.
+Faça o uso de todos os pilares da programação Orientada a Objetos.
+Utilize Enumeradores para a categoria das palavras.
+Estude o tratamento de erros com C# (Exceptions).
+Estude a biblioteca System.Linq; para facilitar sua manipulação de listas.
+Desafios
+Crie mais uma categoria para o jogo dê sua preferência.
+Antes de iniciar o jogo dê a opção de o usuário escolher a dificuldade do jogo: fácil, normal ou difícil:
+Fácil: 7 tentativas
+Normal: 6 tentativas
+Difícil: 5 tentativas
+
+## 7. Tabuada
+[23:13]
+Objetivo: usar uma aplicação do tipo console; criar uma aplicação que imprima a tabuada de 0 Zero a 10 de um número requisitado. 
+
+Estudar:
+
+Loop com For ou Whille
+
+Requisitos:
+
+Ao abrir a aplicação ele deve solicitar a tabuda de qual número dever ser impressa de 0 a 10. Por exemplol, se o usuário escolher a tabuada do dois (2) a aplicação deve imprimir a debuada do 2 (dois) da seguinte forma:
+
+A tabuada solicitada foi: 2
+
+2 x 0 = 0
+2 x 1 = 2
+2 x 2.=4
+..... até 
+2x 10 = 2
+
+## 8.  Faça um programa para calcular o estoque médio de uma peça, sendo que:
+ESTOQUE MÉDIO = (QUANTIDADE_MÍNIMA + QUANTIDADE_MÁXIMA) / 2.
+
+## 9.  Faça um programa que:
+Leia a cotação do dólar
+Leia um valor em dólares
+Converta esse valor para Real
+Mostre o resultado
+
+## 10. Faça um programa para pagamento de comissão de vendedores de peças, levando-se em consideração que sua
+comissão será de 5% do total da venda e que você tem os seguintes dados:
+Identificação do vendedor
+Código da peça
+Preço unitário da peça
+Quantidade vendida
+
+## 11. Caixa Eletronico. Faça uma aplicação que atenda a seguinte lista de requisitos, podem complementar funcionalidades de acordo com a sua criatividade, no entanto os requisitos mínimos deve ser atendidos.
+Deve ser desenvolvido completamente Orientado a Objetos utilizando as melhores práticas dos 4 pilares de Orientação a Objetos: Herança, Abstração, Polimorfisto e Encapsulamento
+Utilizar Generalização, Interface para assinatura de comportamentos (somente metodos),
+Função Deposito: 1) deve ser possivel depositar notas de R$ 10,00 / R$ 20,00 / R$  50,00 / R$  100,00 / R$  e 200,00 para Real(BRL) e moedas de R$ 0,01, R$ 0,05 /  R$ 0,10 / R$ 0,25 / R$ 0,50 / R$ 1,00 para Real(BRL).     2) deve ser possível depositar notas de $2, $5, $10, $20, $50 e $100 Dollar Americano (USD) e moedas  $0.01 / $0.05 / $0.10 /$0.25 /$0.50 /$1.00 Dollar Americano (USD).
+O caixa eletronico deve registrar a cotação de cambio do dia para conversão de moedas
+O caixa eletrônico deve dar troca na moeda original não convertida no cambio. Por exemplo: Ao depositar real e sacar dollar, o troco deve ser dados em real 
+caso o caixa eletronico não tenha mais moedas ou notas para entregar como troco, o troco pode ser dados em transfer6encia via PIX, TED ou numa wallet pra o cliente dentro do caixa eletronico em uma conta específica do cliente
+o cliente deve se cadastrar com os seguintes dados: Nome Completo, CPF, e uma senha de 4 números que nao pode ser 0000 nem 9999 e nem 1111
+O caixa eletronico deve dar suporte adicional a mais duas moedas e conseguir fazer cambio entre elas. Segue lista, escolhe até duas moedas desta lista: Peso Argentino, Euro, Dollar Canadense, Peso Mexicano,  Lira Turca ou Cedi Ganês 
+O caixa eletronico, alem de cambio deve permitir funcoes somente Saque, Somente Deposito em qualquer moeda
+eh possivel fazer camboi comprando com o cartào de crédito. No caso de compra de moeda com cartão a taxa de Cambio. eh de 8%, onde esse 8% cobrado fica como dinheiro eletronico que pode ser utilizado como troco em operações de PIX e TED
+toda operacão tem taxa. Segue: Cambio com Cartão 8%, Deposito 0%, Saque 4,5%, Cambio (compra de moeda utilizando deposito) 6%
+toda cobraça de taxa fica para o banco
+todas as taxas devem ser convertidas em reais e salva em uma conta específica do banco. Ou seja, o banco só salva valores em reais em suas contas bancárias (isso eh uma regra muito forte)
+Será possivel tirar relatórios: Quantas operações foram efetuadas por tipo? Quanto de taxa o banco já tem em sua conta? Qual o valor de saldo em cada conta corrente dos clientes? Quanto tem dentro do caixa eletronico em Notas e Moedas por tipo de Moeda (BRL,USD, etc...)
+O caixa eletronico tem uma opcão de carga de notas e moedas por tipo (BRL,USD, etc.....). Mas tudo tem limite, o caixa eletrônico só pode armazenar 20000 notas e 50000 moedas independente do tipo de moeda.Esse eh um limite de armazenagem físico mesmo.
+As notas e moedas depositadas pelos clientes também podem ser utilizadas para saque, mas cuidado com o limite.
